@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            margin-top: 40%;
+            padding:20px;
+        }
+        #div1{
+            padding-right: 20px;
+            background-color:black;
+            color: white;
+        }
+        #div2{
+            padding-right: 20px;
+            background-color:black;
+            color: white;
+        }
+        h1{
+            text-align: center;
+        }
+        button{
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">
+        <h1 id="h1">0</h1>
+        <button onclick="h1()" id="btn1">div-1</button>
+    </div>
+    <div id="div2">
+        <h1 id="h2">0</h1>
+        <button id="btn2" onclick="h2()">div-2</button>
+    </div>
+    <script src="script.js"></script>
+    <script src="closures.js"></script>
+</body>
+</html>
