@@ -1,3 +1,5 @@
+const rollNo=22391201;
+const name="Mohd Afzal";
+const colleage="GEU";
 
-console.log(x)
-var  x=8;
+console.table([rollNo , name , colleage]);
